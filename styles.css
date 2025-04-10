@@ -1,0 +1,42 @@
+body {
+  text-align: center;       /*My own preference to center all of the text*/
+}
+
+.color-example {
+   color : orange; 
+   background-color: #204843; 
+   font-family: "Arial", sans-serif; 
+   border: 3px solid black;
+ }
+
+ .header-example {
+   text-align: center; margin-top: 50px;
+   font-size: 30px;
+   font-family: "Helvetica", sans-serif;
+   color: brown;
+ }
+
+ .list-example {
+   list-style-type: square;
+   list-style-position: inside; 
+   color: red; 
+ }
+
+ .text-example {
+    font-family: "Monaco", monospace; 
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline; 
+ }
+
+ .div-example {
+    background-color: #204843;
+    border: 3px solid orange;
+    color: salmon;
+    padding: 15px 25px;
+    border-radius: 12px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%)
+
+ }
